@@ -7,4 +7,4 @@ Juan Ignacio Bonora y Mariano Aressi
 
 [Link Diagrama](https://drive.google.com/file/d/1Q_VlzF7ssBuXDLEoHG-puVSSPDGON0gj/view?usp=sharing)
 
-[link Caso de uso](https://docs.google.com/document/d/1zU6txgqkotaj9YduoMUHb2jq0i_r7dBUSLTcV-68v8c/edit?usp=sharing)
+[Link Caso de uso](https://docs.google.com/document/d/1zU6txgqkotaj9YduoMUHb2jq0i_r7dBUSLTcV-68v8c/edit?usp=sharing)

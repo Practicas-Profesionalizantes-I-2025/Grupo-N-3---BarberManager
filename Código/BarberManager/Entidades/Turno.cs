@@ -11,7 +11,9 @@ namespace Entidades
 
         public int Id { get; set; }
 
-        public DateTime FechaYHora { get; set; }
+        public DateTime Fecha { get; set; }
+
+        public TimeOnly Hora { get; set; }
 
         public int IdPeluquero { get; set; }
 
@@ -21,9 +23,11 @@ namespace Entidades
 
         public Cliente Cliente { get; set; }  
 
-        public int IdPromocion { get; set; }
+        public int? IdPromocion { get; set; }
 
         public Promocion Promocion { get; set; }    
+
+        public List<Turno_Servicio_Producto> TurnoServicioProductos { get; set; } = new();
 
     }
 }

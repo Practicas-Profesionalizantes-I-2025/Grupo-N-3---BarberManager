@@ -13,11 +13,11 @@ namespace Entidades
 
         public Turno Turno { get; set; }
 
-        public int IdServicio { get; set; }
+        public int? IdServicio { get; set; }
 
         public Servicio Servicio { get; set; }
 
-        public int IdProducto { get; set; } 
+        public int? IdProducto { get; set; } 
 
         public Producto Producto { get; set; }
 

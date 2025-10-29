@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\juani\\OneDrive\\Documentos\\GitHub\\Grupo-N-3---BarberManager\\Código\\BarberManager\\Entidades\\Entidades.csproj": {}
+    "C:\\GitHub\\Grupo-N-3---BarberManager\\Código\\BarberManager\\Entidades\\Entidades.csproj": {}
   },
   "projects": {
-    "C:\\Users\\juani\\OneDrive\\Documentos\\GitHub\\Grupo-N-3---BarberManager\\Código\\BarberManager\\Entidades\\Entidades.csproj": {
+    "C:\\GitHub\\Grupo-N-3---BarberManager\\Código\\BarberManager\\Entidades\\Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juani\\OneDrive\\Documentos\\GitHub\\Grupo-N-3---BarberManager\\Código\\BarberManager\\Entidades\\Entidades.csproj",
+        "projectUniqueName": "C:\\GitHub\\Grupo-N-3---BarberManager\\Código\\BarberManager\\Entidades\\Entidades.csproj",
         "projectName": "Entidades",
-        "projectPath": "C:\\Users\\juani\\OneDrive\\Documentos\\GitHub\\Grupo-N-3---BarberManager\\Código\\BarberManager\\Entidades\\Entidades.csproj",
+        "projectPath": "C:\\GitHub\\Grupo-N-3---BarberManager\\Código\\BarberManager\\Entidades\\Entidades.csproj",
         "packagesPath": "C:\\Users\\juani\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juani\\OneDrive\\Documentos\\GitHub\\Grupo-N-3---BarberManager\\Código\\BarberManager\\Entidades\\obj\\",
+        "outputPath": "C:\\GitHub\\Grupo-N-3---BarberManager\\Código\\BarberManager\\Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -65,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

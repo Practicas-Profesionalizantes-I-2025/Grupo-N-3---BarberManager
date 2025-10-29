@@ -11,7 +11,7 @@ namespace Entidades
 
         public int Id { get; set; }
 
-        public string Dia { get; set; }
+        public string NombreDia { get; set; }
 
         public DateTime Fecha { get; set; }
 

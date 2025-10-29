@@ -14,5 +14,9 @@ namespace Entidades
 
         public float Precio { get; set; }
 
+        public List<Turno_Servicio_Producto> TurnoServicioProductos { get; set; } = new();
+
+        public List<Promocion_Servicio> Promociones { get; set; } = new();
+
     }
 }

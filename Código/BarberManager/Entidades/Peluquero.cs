@@ -20,6 +20,9 @@ namespace Entidades
 
         public bool EsAdmin { get; set; }
 
+        public bool EstaActivo { get; set; }
+
+        public List<Turno> Turnos { get; set; } = new();
 
     }
 }

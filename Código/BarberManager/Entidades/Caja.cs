@@ -12,11 +12,11 @@ namespace Entidades
 
         public DateTime FechaInicio { get; set; }
         
-        public DateTime FechaCierre { get; set; }
+        public DateTime? FechaCierre { get; set; }
 
-        public float Ingresos { get; set; }
+        public decimal Ingresos { get; set; }
 
-        public float Egresos { get; set; }
+        public decimal Egresos { get; set; }
 
     }
 }

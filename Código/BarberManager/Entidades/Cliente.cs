@@ -8,16 +8,15 @@ namespace Entidades
 {
     public class Cliente
     {
-        public int Id { get; set; }
+        public int Id { get; set; } //PK
 
-        public string Nombre { get; set; }
+        public string Nombre { get; set; } //Nombre completo del cliente
 
-        public int Telefono { get; set; }
+        public string Telefono { get; set; }
 
-        public string? Correo { get; set; }
+        public string? Correo { get; set; } //Puede ser nulo si el cliente no lo proporciona
 
-
-      public List<Turno> Turnos { get; set; } = new();
+        public List<Turno> Turnos { get; set; } = new(); //Uno a muchos: un cliente puede tener varios turnos
 
     }
 }

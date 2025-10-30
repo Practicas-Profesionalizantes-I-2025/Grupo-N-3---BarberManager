@@ -8,21 +8,21 @@ namespace Entidades
 {
     public class Peluquero
     {
-        public int Id { get; set; }
+        public int Id { get; set; } //PK
 
         public string Nombre { get; set; }
 
         public string Correo { get; set; }
 
-        public int Telefono { get; set; }
+        public string Telefono { get; set; }
 
         public string Contrasenia { get; set; }
 
-        public bool EsAdmin { get; set; }
+        public bool EsAdmin { get; set; } //Indica si el peluquero tiene permisos de administrador
 
-        public bool EstaActivo { get; set; }
+        public bool EstaActivo { get; set; } //Estado del peluquero (activo o inactivo en el sistema)
 
-        public List<Turno> Turnos { get; set; } = new();
+        public List<Turno> Turnos { get; set; } = new(); //Uno a muchos: un peluquero puede tener varios turnos asignados
 
     }
 }

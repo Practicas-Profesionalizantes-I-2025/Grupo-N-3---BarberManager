@@ -8,15 +8,15 @@ namespace Entidades
 {
     public class Servicio
     { 
-        public int Id { get; set; }
+        public int Id { get; set; } //PK
 
         public string Nombre { get; set; }
 
         public float Precio { get; set; }
 
-        public List<Turno_Servicio_Producto> TurnoServicioProductos { get; set; } = new();
+        public List<Turno_Servicio_Producto> TurnoServicioProductos { get; set; } = new(); //Relación con la tabla intermedia que vincula Turno, Servicio y Producto
 
-        public List<Promocion_Servicio> Promociones { get; set; } = new();
+        public List<Promocion_Servicio> Promociones { get; set; } = new(); //Relación muchos a muchos entre Servicio y Promoción
 
     }
 }
